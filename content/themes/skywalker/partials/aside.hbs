@@ -1,0 +1,15 @@
+<aside id="menu" class="open blue-grey darken-1" style="background-size:cover;background-position:0 bottom;background-image:url({{@blog.cover_image}});">
+	<div class="bg-container">
+		<div class="profile">
+			<div class="avatar">
+				<a href="#open"><img src="{{@blog.logo}}" class="z-depth-4"></a>
+				<span>{{@blog.title}}</span>
+				<p>{{@blog.description}}</p>
+			</div>
+			<div class="short-line"></div>
+			{{navigation}}
+			<div class="short-line short"></div>
+			{{> link}}
+		</div>
+	</div>
+</aside>
